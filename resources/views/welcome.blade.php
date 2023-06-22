@@ -195,8 +195,8 @@
                                     class="h-full w-auto shadow-lg border border-blue-100 mx-auto">
                             </div>
                             <div class="w-full lg:w-1/2 relative p-4">
-                                <h4 class="text-3xl font-bold">tes</h4>
-                                <p class="mt-4 md:mt-16 ">tes</p>
+                                <h4 class="text-3xl font-bold">test</h4>
+                                <p class="mt-4 md:mt-16 ">test</p>
                                 <button
                                     class="lg:absolute lg:bottom-1 mt-2 md:mt-5 text-gray-800 bg-blue-400 hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0">See
                                     More</button>
@@ -211,8 +211,8 @@
                                     class="h-full w-auto shadow-lg border border-blue-100 mx-auto">
                             </div>
                             <div class="w-full lg:w-1/2 relative p-4">
-                                <h4 class="text-3xl font-bold">tes</h4>
-                                <p class="mt-4 md:mt-16 ">tes</p>
+                                <h4 class="text-3xl font-bold">test</h4>
+                                <p class="mt-4 md:mt-16 ">test</p>
                                 <button
                                     class="lg:absolute lg:bottom-1 mt-2 md:mt-5 text-gray-800 bg-blue-400 hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0">See
                                     More</button>
@@ -227,8 +227,8 @@
                                     class="h-full w-auto shadow-lg border border-blue-100 mx-auto">
                             </div>
                             <div class="w-full lg:w-1/2 relative p-4">
-                                <h4 class="text-3xl font-bold">tes</h4>
-                                <p class="mt-4 md:mt-16 ">tes</p>
+                                <h4 class="text-3xl font-bold">test</h4>
+                                <p class="mt-4 md:mt-16 ">test</p>
                                 <button
                                     class="lg:absolute lg:bottom-1 mt-2 md:mt-5 text-gray-800 bg-blue-400 hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0">See
                                     More</button>
