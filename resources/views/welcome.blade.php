@@ -39,30 +39,29 @@
                     class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
                     <li>
                         <a href="#about"
-                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">About</a>
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600 md:p-0">Get Started!</a>
                     </li>
                     <li>
                         <a href="#services"
-                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Services</a>
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600 md:p-0">Courses</a>
                     </li>
                     <li>
                         <a href="#contact"
-                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Contact</a>
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600 md:p-0">Contact</a>
                     </li>
                     <li>
                         <a href="#signup"
-                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Sign
-                            Up</a>
+                            class="block py-2 pl-3 pr-4 text-blue-800 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600 md:p-0">Sign Up</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     {{-- this is the masthead/ about section --}}
-    <section id="about" class="bg-gray-50 md:mt-14">
+    <section id="about" class="bg-white md:mt-14 border-b-2 border-blue-50">
         <div
-            class="flex flex-col-reverse md:grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 md:h-screen md:-mt-64">
-            <div class="mr-auto place-self-center lg:col-span-7 md:mt-64">
+            class="flex flex-col-reverse md:grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:pb-24 lg:grid-cols-12 md:h-screen md:-mt-64">
+            <div class="mr-auto place-self-center lg:col-span-4 md:mt-72">
                 <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
                     UC Coding School</h1>
                 <p class="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl">
@@ -76,8 +75,8 @@
                     Sign Up
                 </a>
             </div>
-            <div class="order-1 md:order-2 md:mt-96 lg:col-span-5 lg:flex mt-24">
-                <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup">
+            <div class="order-1 md:order-2 md:mt-72 lg:col-span-8 lg:flex mt-12">
+                <img src="/img/kidsCoding.jpg" alt="mockup">
             </div>
         </div>
     </section>
@@ -89,9 +88,8 @@
             <section class="">
                 <div
                     class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-                    <img class="w-full"
-                        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
-                        alt="dashboard image">
+                    <img class="w-full rounded-md"
+                        src="/img/game.webp" alt="scratch">
                     <div class="mt-4 md:mt-0">
                         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Gaming Course with Scratch
                             (5 days @ 4 hours for JH or SH)</h2>
@@ -109,7 +107,7 @@
             </section>
             <section>
                 <div
-                    class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+                    class="gap-8 items-center py-8 px-4 mx-auto flex flex-col-reverse max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
                     <div class="mt-4 md:mt-0">
                         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Embarking on Data Science
                             journey with Python (5 days @ 4 hours for SH)</h2>
@@ -125,8 +123,8 @@
                             models.
                         </p>
                     </div>
-                    <img class="w-full"
-                        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg"
+                    <img class="w-full rounded-md"
+                        src="/img/datascience.png"
                         alt="dashboard image">
                 </div>
             </section>
@@ -213,15 +211,13 @@
     <section id="signup">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div class="mx-auto max-w-screen-sm text-center">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900">Start your free
-                    trial today</h2>
-                <p class="mb-6 font-light text-gray-700md:text-lg">Try Flowbite Platform for 30 days. No credit card
-                    required.</p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScSbNCE1c8-vWctNc-T-2SBK1faFoCNObtEgs66dEtdZ4j5lQ/viewform?pli=1"
-                    class="text-gray-900 bg-blue-400 hover:bg-blue-300 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none">Free
-                    trial for 30 days</a>
+                <h2 class="mb-4 text-5xl tracking-tight font-extrabold leading-tight text-gray-900">Sign Up Now!</h2>
+                <p class="mb-6 text-gray-700 md:text-xl">Fill the following form to join our coding lesson!</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScSbNCE1c8-vWctNc-T-2SBK1faFoCNObtEgs66dEtdZ4j5lQ/viewform?pli=1" class="text-gray-900 bg-blue-400 hover:bg-blue-300 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-lg px-8 py-3.5 mr-2 mb-2 focus:outline-none">
+                    Sign Up
+                </a>
             </div>
-            <img src="/img/qr.png" alt="qr" class="h-64 mx-auto">
+            <img src="/img/qr.jpg" alt="qr" class="h-64 mx-auto mt-8">
         </div>
     </section>
 
@@ -232,7 +228,6 @@
                 <a href="#top" class="hover:underline">UC Techno Center™</a>
             </span>
         </div>
-
     </footer>
 
     <script>
