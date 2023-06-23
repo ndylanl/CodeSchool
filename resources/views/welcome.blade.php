@@ -11,6 +11,7 @@
 </head>
 
 <body id="top" class="bg-gray-50">
+    {{-- this is navbar --}}
     <nav class="bg-white fixed w-full z-50 top-0 left-0 border-b border-brown-700">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="#top" class="flex items-center">
@@ -56,6 +57,7 @@
             </div>
         </div>
     </nav>
+    {{-- this is the masthead/ about section --}}
     <section id="about" class="bg-gray-50 md:mt-14">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div class="mr-auto place-self-center lg:col-span-7">
@@ -74,11 +76,30 @@
         </div>
     </section>
 
+    {{-- this is the service section --}}
     <section id="service">
         <div class="mx-auto md:mt-8">
-            1. Gaming Course with Scratch (5 days @ 4 hours for JH or SH)
-            2. Embarking on Data Science journey with Python (5 days @ 4 hours for SH)
+            {{-- this is the two information panels --}}
+            <section class="">
+                <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+                    <img class="w-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image">
+                    <div class="mt-4 md:mt-0">
+                        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Gaming Course with Scratch (5 days @ 4 hours for JH or SH)</h2>
+                        <p class="mb-6 font-light text-gray-500 md:text-lg">Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="">
+                <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+                    <div class="mt-4 md:mt-0">
+                        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Embarking on Data Science journey with Python (5 days @ 4 hours for SH)</h2>
+                        <p class="mb-6 font-light text-gray-500 md:text-lg">Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.</p>
+                    </div>
+                    <img class="w-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image">
+                </div>
+            </section>
         </div>
+        {{-- this is 2 x 3 section --}}
         <section>
             <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 md:text-center md:mt-8">
                 <div class="max-w-screen-md mb-8 lg:mb-16 md:mx-auto">
@@ -183,6 +204,7 @@
             </div>
         </section>
     </section>
+    {{-- this is carousel/ contact section --}}
     <section id="contact" class="bg-gray-50 min-h-screen">
         <div class="md:flex justify-center hidden">
             <div id="default-carousel" class="relative w-full mx-5 lg:mx-24 md:mx-8" data-carousel="static">
@@ -268,11 +290,12 @@
             </div>
         </div>
     </section>
-
+    {{-- this is sign up g form link --}}
     <section id="signup" class="bg-gray-50 min-h-screen">
         sign up g form
     </section>
 
+    {{-- this is footer --}}
     <footer class="bg-white shadow rounded-lg m-2 border border-gray-100">
         <div class="w-full mx-auto max-w-screen-xl p-6 md:flex md:items-center md:justify-between">
             <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023
