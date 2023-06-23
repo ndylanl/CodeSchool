@@ -228,7 +228,7 @@
         </section>
     </section>
     {{-- this is carousel/ contact section --}}
-    <section id="contact" class="bg-gray-50 min-h-screen">
+    <section id="contact" class="">
         <div class="md:flex justify-center hidden">
             <div id="default-carousel" class="relative w-full mx-5 lg:mx-24 md:mx-8" data-carousel="static">
                 <!-- Carousel wrapper -->
@@ -314,17 +314,25 @@
         </div>
     </section>
     {{-- this is sign up g form link --}}
-    <section id="signup" class="bg-gray-50 min-h-screen">
-        sign up g form
+    <section id="signup">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-sm text-center">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900">Start your free trial today</h2>
+                <p class="mb-6 font-light text-gray-700md:text-lg">Try Flowbite Platform for 30 days. No credit card required.</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScSbNCE1c8-vWctNc-T-2SBK1faFoCNObtEgs66dEtdZ4j5lQ/viewform?pli=1" class="text-gray-900 bg-blue-400 hover:bg-blue-300 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none">Free trial for 30 days</a>
+            </div>
+            <img src="/img/qr.png" alt="qr" class="h-64 mx-auto">
+        </div>
     </section>
 
     {{-- this is footer --}}
     <footer class="bg-white shadow rounded-lg m-2 border border-gray-100">
-        <div class="w-full mx-auto max-w-screen-xl p-6 md:flex md:items-center md:justify-between">
+        <div class="w-full mx-auto max-w-screen-xl p-6 md:flex md:flex-col md:items-center md:justify-between">
             <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023
                 <a href="#top" class="hover:underline">UC Techno Center™</a>
             </span>
         </div>
+
     </footer>
 
     <script>
