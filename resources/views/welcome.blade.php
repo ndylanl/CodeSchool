@@ -59,25 +59,29 @@
     </nav>
     {{-- this is the masthead/ about section --}}
     <section id="about" class="bg-gray-50 md:mt-14">
-        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-            <div class="mr-auto place-self-center lg:col-span-7">
+        <div class="flex flex-col-reverse md:grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 md:h-screen md:-mt-64">
+            <div class="mr-auto place-self-center lg:col-span-7 md:mt-64">
                 <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
-                    Summer Programming Course</h1>
-                <p class="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl">From checkout to global sales tax
-                    compliance, companies around the world use Flowbite to simplify their payment stack.</p>
+                    UC Coding School</h1>
+                <p class="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl">
+                    Our mission is to inspire young minds, 
+                    foster creativity, and empower children 
+                    with essential programming skills that 
+                    will shape their future in the digital world.
+                </p>
                 <a href="#"
                     class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center bg-blue-300 border border-white rounded-lg hover:bg-blue-200 focus:ring-4 focus:ring-gray-100">
-                    Speak to Sales
+                    Sign Up
                 </a>
             </div>
-            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+            <div class="order-1 md:order-2 md:mt-96 lg:col-span-5 lg:flex mt-24">
                 <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup">
             </div>
         </div>
     </section>
 
     {{-- this is the service section --}}
-    <section id="service">
+    <section id="services">
         <div class="mx-auto md:mt-8">
             {{-- this is the two information panels --}}
             <section class="">
@@ -85,7 +89,15 @@
                     <img class="w-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image">
                     <div class="mt-4 md:mt-0">
                         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Gaming Course with Scratch (5 days @ 4 hours for JH or SH)</h2>
-                        <p class="mb-6 font-light text-gray-500 md:text-lg">Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.</p>
+                        <p class="mb-6 font-light text-gray-500 md:text-lg">
+                            Embark on an immersive gaming adventure with our 
+                            interactive course using Scratch! Over the course 
+                            of 5 days, students in junior high (JH) or senior 
+                            high (SH) will delve into the world of game development, 
+                            spending 4 hours each day exploring the fundamentals 
+                            of programming, unleashing their creativity, and 
+                            creating their very own captivating games.
+                        </p>
                     </div>
                 </div>
             </section>
@@ -93,7 +105,17 @@
                 <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
                     <div class="mt-4 md:mt-0">
                         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Embarking on Data Science journey with Python (5 days @ 4 hours for SH)</h2>
-                        <p class="mb-6 font-light text-gray-500 md:text-lg">Flowbite helps you connect with friends and communities of people who share your interests. Connecting with your friends and family as well as discovering new ones is easy with features like Groups.</p>
+                        <p class="mb-6 font-light text-gray-500 md:text-lg">
+                            Embark on an exciting data science journey with Python! 
+                            In this immersive 5-day course designed for senior high 
+                            (SH) students, participants will dive into the world of 
+                            data analysis, visualization, and machine learning. 
+                            Through hands-on projects and real-world applications, 
+                            students will develop proficiency in Python programming, 
+                            explore powerful data manipulation techniques, gain 
+                            insights from data visualizations, and build predictive 
+                            models.                    
+                        </p>
                     </div>
                     <img class="w-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image">
                 </div>
