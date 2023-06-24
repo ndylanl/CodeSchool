@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Code School</title>
+    <!-- I ADDED THIS FOR NORMAL CSS FILE-->
+    <link rel="stylesheet" type="text/css" href="/css/2ndStyle.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.css" rel="stylesheet" />
@@ -60,9 +62,9 @@
         </div>
     </nav>
     {{-- this is the masthead/ about section --}}
-    <section id="about" class="bg-white md:mt-14 border-b-2 border-blue-50">
+    <section id="about" class="bg-white md:mt-14">
         <div
-            class="flex flex-col-reverse md:grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:pb-24 lg:grid-cols-12 md:h-screen md:-mt-64">
+            class="flex flex-col-reverse md:grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:pb-24 lg:grid-cols-12 md:h-screen md:-mt-64 mb-40">
             <div class="mr-auto place-self-center lg:col-span-4 md:mt-72">
                 <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
                     UC Coding School</h1>
@@ -81,11 +83,20 @@
                 <img src="/img/kidsCoding.jpg" alt="mockup">
             </div>
         </div>
+
+        <!-- PUT THE DIV WITH THIS 2 CLASSES, WAVE AND WAVE+NUMBER. THEN OPEN CSS-->
+        <!-- THE CLASSES NAMES ARE BASED ON YOUR CSS FILE, SO IF YOU USE A RED WAVE CLASS (SEE EXAMPLE IN CSS FILE), use example below -->
+        <!-- <div class="redwave wave1"></div> -->
+
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
     </section>
 
     {{-- this is the service section --}}
     <section id="services">
-        <div class="mx-auto md:mt-8">
+        <div class="mx-auto">
             {{-- this is the two information panels --}}
             <section class="">
                 <div
@@ -94,7 +105,7 @@
                     <div class="mt-4 md:mt-0">
                         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Gaming Course with Scratch
                         </h2>
-                        <p class="mb-6 font-light text-gray-500 md:text-lg">
+                        <p class="mb-6 font-light text-gray-700 md:text-lg">
                             Embark on an immersive gaming adventure with our
                             interactive course using Scratch! Over the course
                             of 5 days, students in junior high (JH) or senior
@@ -112,7 +123,7 @@
                     <div class="mt-4 md:mt-0">
                         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Embarking on Data Science
                             journey with Python</h2>
-                        <p class="mb-6 font-light text-gray-500 md:text-lg">
+                        <p class="mb-6 font-light text-gray-700 md:text-lg">
                             Embark on an exciting data science journey with Python!
                             In this immersive 5-day course designed for senior high
                             (SH) students, participants will dive into the world of
@@ -128,10 +139,17 @@
                 </div>
             </section>
         </div>
+        
     </section>
     {{-- this is carousel/ contact section --}}
     <section id="contact" class="">
-        <h2 class="mx-auto text-center text-4xl tracking-tight font-extrabold text-gray-900">Gallery</h2>
+        <div class="rotate-180">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+            <div class="wave wave4"></div>
+        </div>
+        <h2 class="mx-auto text-center text-4xl tracking-tight font-extrabold text-gray-900 mt-32">Gallery</h2>
         <div class="flex justify-center">
             <div id="default-carousel" class="relative w-full md:w-1/2 mx-5 lg:mx-24 md:mx-8" data-carousel="static">
                 <!-- Carousel wrapper -->
