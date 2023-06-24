@@ -18,7 +18,7 @@
             <a href="#top" class="flex items-center">
                 <img src="https://dieng.blob.core.windows.net/webmaster/2021/09/LOGO-UC-FIX-SEP-2021-01.png"
                     class="h-12 mr-3" alt="Logo">
-                <span class="self-center text-2xl font-semibold whitespace-nowrap">CodeSchool</span>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap">UC Coding School</span>
             </a>
             <div class="flex md:order-2">
                 <button data-collapse-toggle="navbar-sticky" type="button"
@@ -39,7 +39,8 @@
                     class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
                     <li>
                         <a href="#about"
-                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600 md:p-0">Get Started!</a>
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600 md:p-0">Get
+                            Started!</a>
                     </li>
                     <li>
                         <a href="#services"
@@ -47,11 +48,12 @@
                     </li>
                     <li>
                         <a href="#contact"
-                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600 md:p-0">Contact</a>
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600 md:p-0">Gallery</a>
                     </li>
                     <li>
                         <a href="#signup"
-                            class="block py-2 pl-3 pr-4 text-blue-800 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600 md:p-0">Sign Up</a>
+                            class="block py-2 pl-3 pr-4 text-blue-800 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600 md:p-0">Sign
+                            Up</a>
                     </li>
                 </ul>
             </div>
@@ -88,11 +90,10 @@
             <section class="">
                 <div
                     class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-                    <img class="w-full rounded-md"
-                        src="/img/game.webp" alt="scratch">
+                    <img class="w-full rounded-md" src="/img/game.webp" alt="scratch">
                     <div class="mt-4 md:mt-0">
                         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Gaming Course with Scratch
-                            (5 days @ 4 hours for JH or SH)</h2>
+                        </h2>
                         <p class="mb-6 font-light text-gray-500 md:text-lg">
                             Embark on an immersive gaming adventure with our
                             interactive course using Scratch! Over the course
@@ -110,7 +111,7 @@
                     class="gap-8 items-center py-8 px-4 mx-auto flex flex-col-reverse max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
                     <div class="mt-4 md:mt-0">
                         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">Embarking on Data Science
-                            journey with Python (5 days @ 4 hours for SH)</h2>
+                            journey with Python</h2>
                         <p class="mb-6 font-light text-gray-500 md:text-lg">
                             Embark on an exciting data science journey with Python!
                             In this immersive 5-day course designed for senior high
@@ -123,54 +124,41 @@
                             models.
                         </p>
                     </div>
-                    <img class="w-full rounded-md"
-                        src="/img/datascience.png"
-                        alt="dashboard image">
+                    <img class="w-full rounded-md" src="/img/datascience.png" alt="dashboard image">
                 </div>
             </section>
         </div>
     </section>
     {{-- this is carousel/ contact section --}}
     <section id="contact" class="">
-        <div class="md:flex justify-center hidden">
-            <div id="default-carousel" class="relative w-full mx-5 lg:mx-24 md:mx-8" data-carousel="static">
+        <h2 class="mx-auto text-center text-4xl tracking-tight font-extrabold text-gray-900">Gallery</h2>
+        <div class="flex justify-center">
+            <div id="default-carousel" class="relative w-full md:w-1/2 mx-5 lg:mx-24 md:mx-8" data-carousel="static">
                 <!-- Carousel wrapper -->
-                <div class="relative md:h-[60vh] overflow-hidden rounded-lg">
+                <div class="relative md:h-[60vh] h-96 overflow-hidden rounded-lg">
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
                         <div class="w-full h-full flex flex-col md:flex-row justify-between p-10">
-                            <div class="w-full lg:w-1/2 mr-4">
+                            <div class="w-full">
                                 <img src="/img/pos1.jpg" alt=""
                                     class="h-full w-auto shadow-lg border border-blue-100 mx-auto">
                             </div>
-                            <div class="w-full lg:w-1/2 relative p-4">
-                                <h4 class="text-3xl font-bold">test</h4>
-                                <p class="mt-4 md:mt-16 ">test</p>
-                            </div>
                         </div>
                     </div>
 
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
                         <div class="w-full h-full flex flex-col md:flex-row justify-between p-10">
-                            <div class="w-full lg:w-1/2 mr-4">
+                            <div class="w-full">
                                 <img src="/img/pos3.jpg" alt=""
                                     class="h-full w-auto shadow-lg border border-blue-100 mx-auto">
                             </div>
-                            <div class="w-full lg:w-1/2 relative p-4">
-                                <h4 class="text-3xl font-bold">test</h4>
-                                <p class="mt-4 md:mt-16 ">test</p>
-                            </div>
                         </div>
                     </div>
 
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
                         <div class="w-full h-full flex flex-col md:flex-row justify-between p-10">
-                            <div class="w-full lg:w-1/2 mr-4">
+                            <div class="w-full">
                                 <img src="/img/pos6.jpg" alt=""
                                     class="h-full w-auto shadow-lg border border-blue-100 mx-auto">
-                            </div>
-                            <div class="w-full lg:w-1/2 relative p-4">
-                                <h4 class="text-3xl font-bold">test</h4>
-                                <p class="mt-4 md:mt-16 ">test</p>
                             </div>
                         </div>
                     </div>
@@ -213,7 +201,8 @@
             <div class="mx-auto max-w-screen-sm text-center">
                 <h2 class="mb-4 text-5xl tracking-tight font-extrabold leading-tight text-gray-900">Sign Up Now!</h2>
                 <p class="mb-6 text-gray-700 md:text-xl">Fill the following form to join our coding lesson!</p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScSbNCE1c8-vWctNc-T-2SBK1faFoCNObtEgs66dEtdZ4j5lQ/viewform?pli=1" class="text-gray-900 bg-blue-400 hover:bg-blue-300 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-lg px-8 py-3.5 mr-2 mb-2 focus:outline-none">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScSbNCE1c8-vWctNc-T-2SBK1faFoCNObtEgs66dEtdZ4j5lQ/viewform?pli=1"
+                    class="text-gray-900 bg-blue-400 hover:bg-blue-300 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-lg px-8 py-3.5 mr-2 mb-2 focus:outline-none">
                     Sign Up
                 </a>
             </div>
